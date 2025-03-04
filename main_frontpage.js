@@ -7,6 +7,7 @@ mainSecElm.innerHTML = `
 <section class="page_section">
     <article class="page_article">
         <section class="article_section">
+            <h2>Now Showing</h2>
             <div class="object_card">
                 <article>
                     <img src="" alt="">
