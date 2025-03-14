@@ -1,6 +1,6 @@
 @param { string } movienUrl
 @returns { string }
-function getIdFromPokemon(movienUrl) {
+function getIdFromMovie(movienUrl) {
     return movienUrl.slice(0, -1).split("/").pop()
 }
 
