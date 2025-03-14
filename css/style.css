@@ -1,5 +1,14 @@
 * {
-    margin: 0;
-    padding: 0 auto;
+    margin: 0 auto;
 }
 
+body {
+}
+#wrapper {
+    width: 375px;
+}
+
+
+header article {
+display: flex;
+}
