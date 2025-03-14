@@ -1,0 +1,22 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+}
+#wrapper {
+    width: 375px;
+}
+
+
+header article {
+display: flex;
+}
+
+
+
+
+
+.movie_gallary {
+    grid-template-columns: repeat(1fr, 3);
+}
