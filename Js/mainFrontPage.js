@@ -1,6 +1,5 @@
-const mainFrontPage = document.createElement("main"); mainFrontPage.id = "mainFrontPage"
-
-mainFrontPage.innerHTML = `
+const mainPage = document.createElement("article"); 
+mainPage.innerHTML = `
 <section class="page_section">
     <article>
         <section class="article_section--headline">
@@ -55,5 +54,4 @@ mainFrontPage.innerHTML = `
 </section><!--page_section-->
 `
 
-document.querySelector("body").append(mainFrontPage)
-
+document.querySelector("main").append(mainPage);
