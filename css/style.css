@@ -12,3 +12,11 @@ body {
 header article {
 display: flex;
 }
+
+
+
+
+
+.movie_gallary {
+    grid-template-columns: repeat(1fr, 3);
+}
